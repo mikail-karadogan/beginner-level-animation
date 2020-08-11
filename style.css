@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+.box {
+width: 500px;
+height: 100px;
+margin: auto;
+
+margin-top: 250px;
+animation: animasyon 6s infinite;
+position: relative;
+
+
+}
+@keyframes animasyon {
+
+40% {
+
+    background-color: red;
+
+}
+
+60% {
+
+    background-color: royalblue;
+}
+
+ 50% {
+background-color: rgb(255, 230, 0);
+transform: rotateZ(3600deg)   ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
